@@ -19,71 +19,43 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario de aplicación sobre presupuesto y cumplimiento tributario en organizaciones solidarias.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
-      barajarPreguntas: false,
+        '<b>Objetivo:</b> verificar la aplicación de criterios de gestión presupuestal y cumplimiento tributario para analizar situaciones, tomar decisiones y aplicar controles en organizaciones de economía solidaria.',
+      barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es una finalidad esencial del presupuesto en una organización solidaria?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Registrar pagos y reemplazar con ellos el control contable del año.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Organizar recursos y vincularlos con los objetivos institucionales.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Concentrar decisiones financieras en el área que realiza los pagos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
+              texto:
+                'Autorizar gastos sin revisar previamente cada partida presupuestal.',
               esCorrecta: false,
             },
           ],
@@ -91,29 +63,69 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          id: 2,
+          texto:
+            'Una organización ajusta la partida de materiales cuando cambia el número real de participantes. ¿Qué tipo de presupuesto aplica?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Presupuesto de efectivo, porque organiza cobros y pagos por cada periodo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Presupuesto fijo, porque conserva sus valores para un nivel de actividad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Presupuesto general, porque integra presupuestos parciales de la entidad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Presupuesto flexible, porque ajusta partidas según el nivel de actividad.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál afirmación diferencia correctamente la planeación presupuestal del reconocimiento contable?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Una fuente presupuestada puede financiar actividades sin constituir un ingreso contable.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Toda fuente presupuestada debe reconocerse como ingreso al aprobar el presupuesto anual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Todo recurso proyectado se registra como ingreso antes de que la organización lo reciba.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La aprobación presupuestal fija automáticamente el tratamiento contable de cada recurso.',
               esCorrecta: false,
             },
           ],
@@ -123,28 +135,32 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué criterio articula adecuadamente la planeación, el presupuesto y la finalidad social de una organización solidaria?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Elegir la propuesta con mayor gasto para utilizar todos los recursos del periodo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Escoger la propuesta presentada primero aunque no responda a objetivos definidos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Relacionar objetivos, recursos, beneficiarios y resultados para asignar partidas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Distribuir el mismo valor entre todas las áreas para evitar diferencias internas.',
               esCorrecta: false,
             },
           ],
@@ -153,28 +169,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué permite identificar la estructura organizacional antes de consolidar la información presupuestal?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Identificar áreas responsables, niveles de autoridad y competencias para decidir.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Identificar áreas solicitantes sin revisar quién debe aprobar sus requerimientos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Identificar canales de envío sin definir responsables de las decisiones internas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Identificar instrumentos para recopilar cifras sin reconocer niveles de decisión.',
               esCorrecta: false,
             },
           ],
@@ -184,28 +205,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué instrumento permite sustentar una proyección utilizando valores ejecutados en periodos anteriores?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Una encuesta a asociados para identificar necesidades y preferencias del grupo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Una lista de verificación para comprobar requisitos y anexos de cada solicitud.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Un reporte contable histórico para sustentar proyecciones con datos anteriores.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Una entrevista con responsables para ampliar datos sobre necesidades y riesgos.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +240,33 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            'Dos áreas presentan solicitudes para adquirir el mismo equipo. ¿Qué actuación contribuye a validar correctamente la información?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Mantener ambas solicitudes y asignar responsables distintos para ejecutarlas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Repartir el valor entre ambas áreas y conservar las dos partidas solicitadas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Aprobar la solicitud de mayor valor y archivar la otra sin revisión del caso.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Verificar la duplicidad, unificar la necesidad y definir el área responsable.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -246,28 +275,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            'Una solicitud llegó dentro del plazo, pero tiene una cotización incompleta y cantidades inconsistentes. ¿Qué debe hacerse antes de consolidarla?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Incorporarla al consolidado y revisar los soportes después de la aprobación.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Devolverla, corregir la versión y verificar los datos antes de consolidarla.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Sustituir sus valores con cifras de otra área para completar así el formato.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Excluirla sin informar al responsable ni conservar evidencia de la revisión.',
               esCorrecta: false,
             },
           ],
@@ -277,29 +310,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Una organización proyecta recuperar $40.000.000 de cartera, pero históricamente recauda el 65 %. ¿Cuál es una estimación prudente?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '$14.000.000.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '$40.000.000.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '$65.000.000.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '$26.000.000.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -308,28 +341,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál de las siguientes partidas corresponde a una inversión dentro de la formulación presupuestal?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Compra de equipos tecnológicos para apoyar la operación durante varios periodos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Pago de servicios mensuales para sostener todo el funcionamiento administrativo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Pago de honorarios contratados para actividades ya previstas durante el periodo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Pago de comisiones bancarias derivadas del manejo habitual de todas las cuentas.',
               esCorrecta: false,
             },
           ],
@@ -339,28 +376,32 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'Una partida tiene contratos y órdenes formalizados por $38.000.000, pero parte de los bienes todavía no se recibe ni se paga. ¿Qué representa ese valor?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'El valor pagado, porque los contratos y órdenes ya fueron formalizados para pago.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'El valor comprometido, porque existen obligaciones aunque falte ejecutar o pagar.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El valor ejecutado, porque formalizar un compromiso equivale a recibir el activo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El saldo disponible, porque todavía no se han realizado pagos desde la tesorería.',
               esCorrecta: false,
             },
           ],
@@ -370,28 +411,32 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Durante el seguimiento se identifica que una partida será insuficiente y requiere modificación. ¿Qué actuación corresponde?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Cambiar el valor de la partida y documentar este cambio al finalizar el periodo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Tomar recursos de otra partida y registrar posteriormente el traslado efectuado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Justificar la necesidad, gestionar el ajuste y obtener la aprobación competente.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Esperar al cierre y compensar la diferencia con valores de partidas disponibles.',
               esCorrecta: false,
             },
           ],
@@ -401,28 +446,32 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál relación diferencia correctamente el Registro Único Tributario y el Número de Identificación Tributaria?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'El RUT registra impuestos territoriales y el NIT organiza los vencimientos de la DIAN.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'El RUT autoriza las actividades económicas y el NIT determina los impuestos exigibles.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'El RUT registra identificación y clasificación; el NIT individualiza al contribuyente.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El RUT reemplaza el NIT al facturar y el NIT se utiliza solo en operaciones bancarias.',
               esCorrecta: false,
             },
           ],
@@ -432,28 +481,32 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿De qué depende la determinación de las responsabilidades tributarias de una organización solidaria?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Solo de los datos del RUT, sin considerar las operaciones realizadas por la entidad.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'De la naturaleza jurídica, actividades y condiciones normativas que sean aplicables.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'De una clasificación común que asigna las mismas obligaciones a todas las entidades.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'De la ausencia de ánimo de lucro, que elimina obligaciones derivadas de operaciones.',
               esCorrecta: false,
             },
           ],
@@ -463,28 +516,207 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Cuál afirmación diferencia correctamente la facturación electrónica de la información exógena?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La factura y la exógena informan únicamente pagos realizados y tienen siempre la misma función tributaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La factura reporta operaciones con terceros y la exógena reemplaza la documentación exigida en cada venta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La factura y la exógena sustituyen todos los soportes y eliminan la conciliación previa de cada operación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La factura electrónica documenta operaciones sujetas a facturación y la exógena reporta datos de terceros.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál afirmación distingue correctamente el IVA, el ICA y el impuesto sobre la renta?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El IVA es nacional, el ICA es territorial y la renta depende de la naturaleza y condiciones de la organización.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'El IVA y el ICA son impuestos territoriales, y la renta se aplica de igual forma a toda organización solidaria.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El ICA es nacional, el IVA es municipal y la renta depende exclusivamente de los datos formalmente registrados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El IVA, el ICA y la renta se aplican siempre con las mismas condiciones en todas las organizaciones solidarias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál afirmación describe correctamente la relación entre la UVT y las sanciones tributarias?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La UVT funciona como una sanción anual aplicada automáticamente si se presenta tarde cualquier obligación tributaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La UVT expresa valores tributarios actualizables; la sanción depende del incumplimiento y las condiciones aplicables.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'La UVT es una tarifa única utilizada para determinar cuánto debe pagar cualquier organización por todos sus tributos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La UVT es un registro que identifica responsabilidades tributarias y reemplaza toda consulta de las leyes aplicables.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'Una organización detecta que omitió información por un reporte recibido después del cierre, documenta la causa y realiza la corrección correspondiente. ¿Cómo debe interpretarse esta situación?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Como evasión tributaria, porque toda omisión demuestra intención de ocultar la información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Como planeación tributaria, porque la corrección elimina cualquier incumplimiento anterior.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Como control preventivo, porque el error se identificó después de presentar la declaración.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Como error u omisión susceptible de corrección, sin asumir que exista una conducta evasiva.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál de las siguientes situaciones puede representar una conducta de evasión tributaria?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Ocultar deliberadamente ingresos para disminuir de forma indebida una obligación tributaria.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Corregir un dato inconsistente después de identificar y documentar la causa clara del error.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Actualizar el calendario tributario para anticipar la preparación y el pago de obligaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Conciliar facturas y bancos antes de presentar declaraciones o reportes a la entidad fiscal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué actuación corresponde específicamente a un control de verificación de la información antes de presentar una obligación tributaria?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Elaborar al inicio del periodo un calendario de obligaciones y fechas tributarias previstas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Definir anticipadamente responsables y recursos necesarios para cada vencimiento tributario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Conciliar facturación, contabilidad y bancos, y revisar la declaración antes de presentarla.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Programar cierres internos y alertas previas a todos los vencimientos tributarios oficiales.',
               esCorrecta: false,
             },
           ],

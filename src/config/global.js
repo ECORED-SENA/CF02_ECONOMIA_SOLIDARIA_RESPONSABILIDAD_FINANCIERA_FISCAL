@@ -231,14 +231,166 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Ajuste presupuestal',
+      significado:
+        'modificación autorizada de una partida para adicionar, reducir, trasladar o reprogramar recursos durante la ejecución del presupuesto.',
+    },
+    {
+      termino: 'Calendario tributario',
+      significado:
+        'programación que establece las fechas para preparar, presentar y pagar las obligaciones fiscales de una organización.',
+    },
+    {
+      termino: 'Costo',
+      significado:
+        'valor de los recursos utilizados directamente para producir un bien, prestar un servicio o desarrollar una actividad.',
+    },
+    {
+      termino: 'Evasión tributaria',
+      significado:
+        'conducta deliberada orientada a ocultar información o reducir indebidamente el valor de una obligación fiscal.',
+    },
+    {
+      termino: 'Facturación electrónica',
+      significado:
+        'sistema utilizado para generar, transmitir, validar y conservar las facturas de venta en formato electrónico.',
+    },
+    {
+      termino: 'Gasto',
+      significado:
+        'recurso destinado al funcionamiento administrativo, comercial, financiero o general de la organización.',
+    },
+    {
+      termino: 'ICA',
+      significado:
+        'impuesto de industria y comercio aplicado por los municipios y distritos a determinadas actividades industriales, comerciales y de servicios.',
+    },
+    {
+      termino: 'Información exógena',
+      significado:
+        'datos sobre operaciones realizadas con terceros que ciertos obligados deben reportar a la administración tributaria.',
+    },
+    {
+      termino: 'Ingreso',
+      significado:
+        'recurso generado por la venta de bienes, la prestación de servicios, rendimientos u otras operaciones reconocidas contablemente como ingreso.',
+    },
+    {
+      termino: 'Inversión',
+      significado:
+        'destinación de recursos para adquirir o mejorar bienes que apoyan el funcionamiento de la organización durante varios periodos.',
+    },
+    {
+      termino: 'IVA',
+      significado:
+        'impuesto sobre las ventas generado en determinadas operaciones de venta de bienes y prestación de servicios.',
+    },
+    {
+      termino: 'NIT',
+      significado:
+        'número de Identificación Tributaria asignado para individualizar a una persona o entidad frente a la administración tributaria.',
+    },
+    {
+      termino: 'Presupuesto',
+      significado:
+        'instrumento que proyecta y organiza los ingresos, costos, gastos e inversiones de un periodo determinado.',
+    },
+    {
+      termino: 'RUT',
+      significado:
+        'registro Único Tributario utilizado para identificar, ubicar y clasificar a los sujetos con obligaciones administradas por la DIAN.',
+    },
+    {
+      termino: 'UVT',
+      significado:
+        'unidad de valor tributario empleada para expresar y actualizar valores, límites y sanciones establecidos en la normativa fiscal.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Congreso de la República de Colombia. (1983, 6 de julio). Ley 14 de 1983. Por la cual se fortalecen los fiscos de las entidades territoriales y se dictan otras disposiciones. Función Pública.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=267',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (1988, 23 de diciembre). Ley 79 de 1988. Por la cual se actualiza la legislación cooperativa. SUIN-Juriscol.',
+      link: 'https://www.suin-juriscol.gov.co/viewdocument.asp?ruta=leyes%2F1625669',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (1998, 4 de agosto). Ley 454 de 1998. Por la cual se determina el marco conceptual que regula la economía solidaria, se transforma el Departamento Administrativo Nacional de Cooperativas en el Departamento Administrativo Nacional de la Economía Solidaria, se crea la Superintendencia de la Economía Solidaria, se crea el Fondo de Garantías para las Cooperativas Financieras y de Ahorro y Crédito, se dictan normas sobre la actividad financiera de las entidades de naturaleza cooperativa y se expiden otras disposiciones. SUIN-Juriscol.',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes%2F1660557',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2016, 29 de diciembre). Ley 1819 de 2016. Por medio de la cual se adopta una reforma tributaria estructural, se fortalecen los mecanismos para la lucha contra la evasión y la elusión fiscal, y se dictan otras disposiciones. Normograma DIAN.',
+      link: 'https://normograma.dian.gov.co/dian/compilacion/docs/ley_1819_2016.htm',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2022, 13 de diciembre). Ley 2277 de 2022. Por medio de la cual se adopta una reforma tributaria para la igualdad y la justicia social y se dictan otras disposiciones. SUIN-Juriscol.',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes%2F30045028',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s. f.-a). Actualización [Régimen Tributario Especial]. Recuperado el 14 de septiembre de 2026, de',
+      link: 'https://www.dian.gov.co/impuestos/sociedades/Regimen-Tributario-Especial-RTE/Actualizacion/Paginas/default.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s. f.-b). Calendario tributario. Recuperado el 14 de septiembre de 2026, de',
+      link: 'https://www.dian.gov.co/Paginas/CalendarioTributario.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s. f.-c). Documento soporte con sujetos no obligados a expedir factura de venta y/o documento equivalente.',
+      link: 'https://www.dian.gov.co/impuestos/Paginas/Sistema-de-Factura-Electronica/Documento-Soporte-Adquisiciones-No-Obligados.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s. f.-d). Documento soporte de pago de nómina electrónica.',
+      link: 'https://www.dian.gov.co/impuestos/Paginas/Sistema-de-Factura-Electronica/Documento-Soporte-de-Pago-de-Nomina-Electronica.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s. f.-e). Normatividad [Información exógena tributaria]. Recuperado el 14 de septiembre de 2026, de',
+      link: 'https://www.dian.gov.co/impuestos/sociedades/exogenatributaria/normatividad/paginas/default.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s. f.-f). RUT.',
+      link: 'https://www.dian.gov.co/tramitesservicios/tramites-y-servicios/tributarios/Paginas/RUT.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s. f.-g). Sistema de factura electrónica.',
+      link: 'https://www.dian.gov.co/impuestos/Paginas/Sistema-de-Factura-Electronica/Sistema-de-Factura-Electronica.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (2025a, 23 de septiembre). Resolución 000227 de 2025. Por la cual se expide la Resolución Única en Materia Tributaria, Aduanera y Cambiaria en lo de competencia de la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN).',
+      link: 'https://www.dian.gov.co/normatividad/Paginas/Resolucion-000227-del-23092025.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (2025b, 15 de diciembre). Resolución 000238 de 2025. Por medio de la cual, en desarrollo del artículo 868 del Estatuto Tributario, se sustituye el artículo 1.2.1 del Título 2 de la Parte 1 de la Resolución Única en Materia Tributaria, Aduanera y Cambiaria de la Dirección de Impuestos y Aduanas Nacionales (DIAN), Resolución número 000227 de 2025, para fijar el valor de la Unidad de Valor Tributario (UVT) aplicable para el año 2026.',
+      link: 'https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0238_2025.htm',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1983, 3 de noviembre). Decreto 3070 de 1983. Por el cual se reglamenta parcialmente la Ley 14 de 1983 y se dictan otras disposiciones. Función Pública.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3338',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1989, 30 de marzo). Decreto 624 de 1989. Por el cual se expide el Estatuto Tributario de los impuestos administrados por la Dirección General de Impuestos Nacionales. SUIN-Juriscol.',
+      link: 'https://suin-juriscol.gov.co/viewDocument.asp?id=1132325',
+    },
+    {
+      referencia:
+        'Superintendencia de la Economía Solidaria. (2026, 2 de julio). Actualización Circular Básica Contable y Financiera.',
+      link: 'https://supersolidaria.gov.co/es/content/actualizacion-circular-basica-contable-y-financiera',
     },
   ],
   creditos: [
@@ -247,13 +399,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
         },
       ],
     },
@@ -261,9 +409,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ana Roció Rosero Cortes',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Leonardo Camacho Acevedo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Alba Mireya Orjuela Toro',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Cristancho Cubillos',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Angelica Gómez Morales',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paula Marcela Vidal Quintero',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -271,37 +450,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Cristian Fernando Martínez Sánchez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-      ],
-    },
-    {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [
-        {
-          nombre: '',
-          cargo: 'Validador de recursos educativos digitales',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
