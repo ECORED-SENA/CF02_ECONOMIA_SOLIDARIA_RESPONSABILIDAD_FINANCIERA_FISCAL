@@ -3,13 +3,13 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
+    top: 20%
+    left: 15%
     width: 20%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 60%
     right: 10%
     width: 20%
 
@@ -22,10 +22,32 @@
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
-.banner-principal__img
-  padding-bottom: 0 !important
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+  @media screen and (max-width: 1200px)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+  @media screen and (max-width: 768px)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-principal-int.png") !important
+
 .banner-principal__row .banner-principal__img
-  width: 33%
+  width: 400px !important
+  padding-bottom: 0 !important
+  @media screen and (max-width: 1200px)
+    width: 380px !important
+  @media screen and (min-width: 1400px)
+    width: 420px !important
+
+.banner-principal__row
+  padding: 0rem 3rem 0rem 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+
+.banner-interno__titulo__icono i
+  color: $color-sistema-texto
+
 
 /**************************************************************/
 /*Media Queries*/  
@@ -52,3 +74,318 @@
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em !important
+
+/// intro
+.caja-1
+  background-color: #E2DCF7
+  padding-right: 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    img
+      width: 700px !important
+      margin: 0rem !important
+      padding: 0rem !important
+.caja-1_p
+  @media screen and (max-width: 1200px)
+    padding: 2rem
+
+/// tema 1
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.tarjeta--azul
+  position: relative
+  background-color: #C7B9F0
+  width: 100%
+  p
+    padding-left: 4.3rem
+  @media screen and (max-width: 1200px)
+    width: 100%
+    img
+      padding-left: 3.5rem
+.acordion__activo
+  background-color: #CDF7F6
+  h3
+    color: $color-sistema-texto !important
+.ajuste-cajaAcordion
+  padding: 0rem 1rem 0rem 0rem
+  ul
+    padding: 0rem 3.3rem
+    @media screen and (max-width: 1200px)
+      padding: 0rem 2.3rem
+  ol
+    padding: 0rem 4.1rem
+.ajuste-tabla-acordion
+  padding-left: 4.3rem
+  @media screen and (max-width: 1200px)
+    padding-left: 4.3rem
+.ajuste-vineta
+  ul
+    padding: 0rem 3.3rem
+
+.bg-carrusel
+  background-image: url("../assets/curso/temas/bg/img1.png")
+  background-repeat: no-repeat
+  background-size: 1150px
+  margin-inline: -3.2rem !important
+  background-position: center
+  @media screen and (min-width: 1400px)
+    background-size: 1330px
+
+.tarjeta.color-acento-botones
+  background-color: white
+  border-radius: 14px !important
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3)
+  h4
+    color: $color-sistema-texto
+  p
+    color: $color-sistema-texto
+  i
+    color: $color-sistema-texto
+  b
+    color: $color-sistema-texto
+  li
+    color: $color-sistema-texto
+.horizontal-scroll__wrapper
+  padding: 1rem 0.5rem
+.fa-chevron-right
+  color: $color-acento-botones
+.fa-chevron-left
+  color: $color-acento-botones
+.estilo-text
+  text-align: center
+  padding: 0.3rem
+.slyder-f__btn
+  @media screen and (max-width: 576px)
+    width: 100% !important
+    padding: 0rem !important
+.slyder-f__btn i
+  font-size: 1.3rem
+  display: flex
+  justify-content: center
+  background-color: $color-acento-botones
+  color: $color-sistema-texto
+  border-radius: 100% 
+  padding: 1rem 1.7rem 
+  @media screen and (max-width: 576px)
+    font-size: 1rem !important
+    padding: 0.5rem 1rem !important
+  @media screen and (max-width: 1200px)
+    font-size: 1.2rem
+    padding: 1rem 1.6rem
+  @media screen and (min-width: 1400px)
+    font-size: 1.2rem !important
+    padding: 1rem 1.6rem !important
+.slyder-f__btn i:hover
+  background-color: $color-acento-botones
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3)
+  border: 1px solid white
+  transition: opacity 0.3s ease-in-outbox-shadow 0.3s ease-in-out
+.box___card_sinbordes_p
+  padding: 0rem 2rem 3rem 2rem
+
+.caja-2
+  background-color: #E6FBFA
+  border-radius: 15px
+  padding: 3rem
+
+.tabla-a
+  width: 100% !important
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  table
+    border-collapse: collapse
+    width: 100%
+    min-width: 500px
+    table-layout: auto 
+  thead
+    border-top: 0px solid #B18C32 !important
+    background-color: $color-acento-contenido !important
+  tbody
+    border: none !important
+    background-color: white !important
+  td
+    border: none
+    padding: 1rem
+  th
+    padding: 1.5rem
+    @media screen and (max-width: 1200px)
+      padding: 0.5rem
+.ajuste-border-tabla
+  border-right: 1px solid #d5d5d5 !important
+.ajuste-color-tabla
+  background-color: #F6F6F6 !important
+.texto-right
+  text-align: right !important
+.texto-left
+  text-align: left !important
+.text-weight-bold
+  font-weight: bold
+
+.tabla-a-1
+  width: 100% !important
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  table
+    border-collapse: collapse
+    width: 100%
+    min-width: 800px !important
+    table-layout: auto 
+  thead
+    border-top: 0px solid #B18C32 !important
+    background-color: $color-acento-contenido !important
+  tbody
+    border: none !important
+    background-color: white !important
+  td
+    border: none
+    padding: 1rem
+  th
+    padding: 1.5rem
+    @media screen and (max-width: 1200px)
+      padding: 0.5rem
+.ajuste-border-tabla
+  border-right: 1px solid #d5d5d5 !important
+.ajuste-color-tabla
+  background-color: #F6F6F6 !important
+.texto-right
+  text-align: right !important
+.texto-left
+  text-align: left !important
+.text-weight-bold
+  font-weight: bold
+
+.caja-3
+  background-color: #E2DCF7
+  padding: 0.3rem 1rem
+  justify-items: center
+
+.bg-1
+  background-image: url("../assets/curso/temas/bg/img2.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+.bg-2
+  background-image: url("../assets/curso/temas/bg/img2.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  background-position: center
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+.bg-3
+  background-image: url("../assets/curso/temas/bg/img4.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  background-position: center
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+.caja-4
+  background-color: #E6FBFA
+  padding: 0.5rem 1rem
+  justify-items: center
+
+.fit___pasosA-left
+  text-align: left
+
+.caja-5
+  background-color: #3A296D
+  border-radius: 11px
+  padding: 1.5rem
+  p
+    color: white 
+  h4
+    color: #F7B014
+.texto-negro
+  span
+    color: $color-sistema-texto !important
+  i
+    color: $color-sistema-texto !important
+
+.tabs-c__tab--active
+  font-weight: bold
+.tabs-c__content-item
+  background-color: #F0ECFB
+  padding: 2rem
+.tabs-c
+  border-bottom: none !important
+
+.caja-6
+  background-color: #E2DCF7
+  padding-left: 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    img
+      width: 700px !important
+      margin: 0rem !important
+      padding: 0rem !important
+.caja-6_p
+  @media screen and (max-width: 1200px)
+    padding: 2rem
+
+/// tema 2
+.bg-slider
+  background-image: url("../assets/curso/temas/bg/img3.png") !important
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+  padding: 3rem 0rem
+
+.slyder-a__item
+  padding: 4rem 3rem 1rem 4rem !important
+.slyder-a__tipo-b
+  padding: 0rem 2rem 2rem 2rem !important
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: $color-acento-botones
+.slyder-a__bullets__item 
+  background-color: #FDFAA6 !important
+  border: 0px
+.slyder-a__bullets__item--active
+  background-color: #F8F200 !important
+.slyder-a__bullets__item
+  @media screen and (max-width: 768px)
+    width: 10px !important
+    height: 10px !important
+    margin: 0.2rem
+.ajuste-slider
+  border-radius: 20px
+  background-color: white
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4)
+
+/// tema 5
+.caja-7
+  background-color: #3A296D
+  padding: 3rem 1.5rem
+  border-radius: 20px
+  h4
+    color: #85ECEB
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+.tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  margin-bottom: 2rem !important
+  font-style: normal !important
+.tarjeta-audio
+  background-color: white
+  border-radius: 10px
+  border: 3px solid $color-primario !important
+  padding: 1rem
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__input input[type=range]
+  background: rgb(255, 233, 181)
+  background-image: linear-gradient(#FF9B08, #FF9B08) !important
+.audio__btn
+  background-color: $color-acento-contenido !important
+
+.caja-8
+  background-color: $white
+  border-radius: 14px
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3)
+  h4
+    padding: 1rem 2rem 1rem 2rem
+.caja-8_p
+  padding: 0rem 2rem 3rem 2rem
