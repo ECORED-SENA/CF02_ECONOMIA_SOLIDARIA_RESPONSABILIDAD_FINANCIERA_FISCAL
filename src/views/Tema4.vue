@@ -200,7 +200,7 @@
                 img(src='@/assets/curso/temas/t4/img12.png', alt="" ).m-auto
             .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
               h4.txt--purpura.mb-4 Operaciones que generan responsabilidades adicionales
-              p.mb-0 La clasificación frente a renta no impide que una organización deba atender, cuando corresponda, facturación electrónica, retenciones, IVA, información exógena e impuestos territoriales originados en sus actividades.
+              p.mb-0 La clasificación frente a la renta no impide que una organización deba atender, cuando corresponda, facturación electrónica, retenciones, IVA, información exógena e impuestos territoriales originados en sus actividades.
       p Las cooperativas y demás entidades del artículo 19-4 pertenecen al Régimen Tributario Especial y aplican una tarifa del 20 % sobre el beneficio neto o excedente. Los fondos de empleados son no contribuyentes declarantes, y las entidades del RTE deben actualizar anualmente el registro web.
       p.mb-5 El siguiente caso permite identificar las responsabilidades a partir de la naturaleza de la entidad y de las operaciones que realiza:
       .row.justify-content-center.align-items-center.mb-5

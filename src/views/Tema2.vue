@@ -158,7 +158,7 @@
               .col-xl.order-2.order-lg-1.caja-6_p
                 h5 Ejemplo aplicado
                 p Una cooperativa comienza la formulación de su presupuesto anual. La gerencia solicita a cada área que presente sus necesidades y actividades para el siguiente periodo. El comité de educación proyecta jornadas de capacitación; el área administrativa calcula los gastos de funcionamiento; tesorería estima los recaudos y pagos; y contabilidad entrega los valores históricos y las obligaciones pendientes.
-                p El área financiera consolida las solicitudes y encuentra que los recursos requeridos ascienden a $275.000.000, mientras que los ingresos proyectados son de $250.000.000. La gerencia no puede aprobar por sí sola todas las partidas. Debe solicitar a las áreas que revisen sus prioridades, ajustar la propuesta y presentarla al órgano competente de acuerdo con los estatutos y los niveles de autoridad definidos.
+                p El área financiera consolida las solicitudes y encuentra que los recursos requeridos ascienden a $275.000.000, mientras que los ingresos proyectados son de $250.000.000. La gerencia no puede aprobar por sí sola todas las partidas. Debe solicitar a las áreas que revisen sus prioridades, ajusten la propuesta y presenten al órgano competente de acuerdo con los estatutos y los niveles de autoridad definidos.
                 p El faltante presupuestal inicial se determina así:
                 .row.justify-content-center.mb-3(data-aos="zoom-in")
                   .col-xl-10
@@ -241,7 +241,7 @@
                       td.ajuste-border-tabla.texto-left Asesoría jurídica y tributaria.
                       td.ajuste-border-tabla.texto-left Se requiere acompañamiento para atender cambios normativos y decisiones institucionales.
                       td.texto-left Alcance del servicio, productos esperados y propuestas económicas.
-          p No todas las solicitudes deben incorporarse automáticamente. Su revisión debe considerar relación con el objeto social, disponibilidad financiera, urgencia, beneficiarios, obligaciones y riesgos de aplazamiento.
+          p No todas las solicitudes deben incorporarse automáticamente. Su revisión debe considerar la relación con el objeto social, disponibilidad financiera, urgencia, beneficiarios, obligaciones y riesgos de aplazamiento.
           p.mb-5 Para aplicar estos criterios de priorización, se presenta una situación en la que las necesidades superan los recursos disponibles:
           .row.justify-content-center.align-items-center.mb-5
             .col-xl-10
@@ -368,7 +368,7 @@
                 img(src='@/assets/curso/temas/t2/img15.png', alt="" ).m-auto
             .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
               h4.txt--purpura.mb-4 Contabilidad
-              p.mb-0 Verifica antecedentes y coherencia contable mediante información sobre ejecución histórica, obligaciones, impuestos y saldos. Como evidencia genera reportes contables y observaciones para sustentar las proyecciones.
+              p.mb-0 Verifica antecedentes y coherencia contable mediante información sobre ejecución histórica, obligaciones, impuestos y saldos. Como evidencia, genera reportes contables y observaciones para sustentar las proyecciones.
         .py-3.py-md-4(titulo="Tesorería")
           .row.justify-content-center.align-items-center
             .col-xl-5.order-2.order-lg-1
@@ -522,7 +522,7 @@
       #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.5 Controles, tiempos y validación de los datos
       p La información recopilada debe validarse antes de incorporarse al presupuesto. La revisión permite detectar datos incompletos, errores matemáticos, duplicidades, valores desactualizados, fuentes inadecuadas o solicitudes sin autorización. También requiere establecer fechas de entrega y corrección para que las diferentes versiones puedan identificarse y consolidarse de manera controlada. 
-      p.mb-5 Esta siguiente detalla los aspectos que deben revisarse antes de incorporar una solicitud al proyecto de presupuesto:
+      p.mb-5 La siguiente tabla detalla los aspectos que deben revisarse antes de incorporar una solicitud al proyecto de presupuesto:
       .bg-1
         .px-5
           .row.justify-content-center.mb-5

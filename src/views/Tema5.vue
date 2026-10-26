@@ -172,7 +172,7 @@
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Calendario interno
-                  p.mb-0 Programa cierres, revisiones y pagos antes de los vencimientos oficiales. El contador y tesorería pueden participar en este control, respaldado mediante un calendario con alertas, fechas internas y responsables.
+                  p.mb-0 Programa cierres, revisiones y pagos antes de los vencimientos oficiales. El contador y la tesorería pueden participar en este control, respaldado mediante un calendario con alertas, fechas internas y responsables.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t5/img15.png', alt='' style="max-width: 500px").m-auto
@@ -250,7 +250,7 @@
 </template>
 
 <script>
-import audio1 from '@/assets/curso/temas/t5/audios/audio-ej.mp3'
+import audio1 from '@/assets/curso/podcast/responsabilidad.mp3'
 export default {
   name: 'Tema5',
   data: () => ({

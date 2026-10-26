@@ -230,7 +230,7 @@
             .row(titulo="Rendimientos financieros").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Los depósitos o inversiones autorizadas pueden generar recursos adicionales. Su estimación debe basarse en saldos, tasas y condiciones contractuales prudentes, evitando asumir rendimientos que no cuenten con sustento suficiente.
             .row(titulo="Saldos de fondos").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Corresponden a recursos existentes al inicio del periodo. Antes de incorporarlos deben conciliarse y mantenerse asociados con la finalidad establecida, especialmente cuando tienen destinación específica o reglamentada.
+              p.mb-3 Corresponden a recursos existentes al inicio del periodo. Antes de incorporarlos, deben conciliarse y mantenerse asociados con la finalidad establecida, especialmente cuando tienen destinación específica o reglamentada.
             .row(titulo="Tesorería").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Aporta saldos bancarios y fechas probables de recaudo. Esta información permite preparar la disponibilidad mensual de efectivo y contrastar las proyecciones con extractos, movimientos pendientes y compromisos de pago.
         .col-xl-auto(data-aos="fade-left")
@@ -718,7 +718,7 @@
       p.mb-5 Se invita a profundizar en cómo se ejecuta y controla el presupuesto, cómo se interpretan las variaciones y qué criterios orientan los ajustes autorizados y las acciones de mejora mediante el siguiente video:
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2IzaQ6tiGVw?si=nmwlx8ecFj7Bzhp6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. “Del presupuesto aprobado a la mejora: ejecución y seguimiento”
       p.mb-5 La aplicación de estos conceptos permite analizar la ejecución del presupuesto y determinar las decisiones requeridas ante las variaciones identificadas:
       .row.justify-content-center.align-items-center.mb-5
