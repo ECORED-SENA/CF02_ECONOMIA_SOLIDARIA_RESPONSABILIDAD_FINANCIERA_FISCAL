@@ -35,7 +35,7 @@
               p.mb-3 Recursos necesarios para administrar y mantener la organización, como honorarios, servicios públicos y mantenimiento.
             .row(titulo="Inversiones").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Recursos destinados a adquirir o mejorar bienes de uso prolongado, como equipos, adecuaciones o herramientas tecnológicas.
-      p.mb-5 La segunda parte de los elementos, son los que se presentan a continuación:
+      p.mb-5 La segunda parte de los elementos son los que se presentan a continuación:
       .bg-carrusel
         .px-5
           SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5

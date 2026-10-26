@@ -9,7 +9,7 @@
       p.mb-5 Las organizaciones solidarias deben identificar sus responsabilidades tributarias según su naturaleza jurídica, las actividades que desarrollan y las operaciones realizadas. Su cumplimiento exige mantener actualizada la información de identificación, determinar el régimen aplicable, generar los documentos requeridos, reconocer los tributos correspondientes y organizar fechas, responsables, recursos y controles para atender oportunamente cada obligación. 
       #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 4.1 Registro Único Tributario y Número de Identificación Tributaria
-      p El Registro Único Tributario, RUT permite a la DIAN identificar, ubicar y clasificar a las organizaciones, mientras que el NIT las individualiza para efectos tributarios, aduaneros y cambiarios. Las obligaciones no surgen del RUT, sino de la normativa aplicable y de las condiciones particulares de cada entidad.
+      p El Registro Único Tributario (RUT) permite a la DIAN identificar, ubicar y clasificar a las organizaciones, mientras que el NIT las individualiza para efectos tributarios, aduaneros y cambiarios. Las obligaciones no surgen del RUT, sino de la normativa aplicable y de las condiciones particulares de cada entidad.
       p.mb-5 La información del RUT puede organizarse entre los datos que identifican y clasifican a la organización y aquellos que requieren seguimiento institucional:
       TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
         .py-3.py-md-4(titulo="Identificación")
